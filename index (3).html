@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fogo Grátis</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="gameCanvas" width="800" height="600" tabindex="0"></canvas>
+        <div id="ui">
+            <div id="health">Vida: 100</div>
+            <div id="ammo">Munição: 10</div>
+            <div id="players">Jogadores Restantes: 0</div>
+            <button id="startButton">Iniciar Jogo</button>
+            <div id="gameOver" style="display: none;">
+                Game Over! <button id="restartButton">Jogar Novamente</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

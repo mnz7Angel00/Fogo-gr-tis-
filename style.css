@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: #222;
+    font-family: sans-serif;
+    color: white;
+}
+
+#game-container {
+    position: relative;
+    width: 800px;
+    margin: 20px auto;
+}
+
+canvas {
+    border: 4px solid #555;
+    background-color: #333;
+}
+
+#ui {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#ui div, #ui button {
+    margin: 5px 0;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #00aa00;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #007700;
+}
